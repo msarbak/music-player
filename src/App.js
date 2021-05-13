@@ -1,4 +1,3 @@
-
 import onair from './pics/onair.jpg';
 import './App.css';
 import MultiPlayer from './MultiPlayer'
@@ -11,10 +10,8 @@ import Holocaust from './songs/holo.mp3'
 import Istakoz from './songs/istakoz.mp3'
 import Sago from './pics/sago.jpg'
 import Ceza from './pics/ceza.jpg'
-//import Ses from "./Ses"
-//import Player from "./Player"
-import {Button} from '@material-ui/core';
-//import {PlayArrowOutlined} from '@material-ui/icons'
+
+
 function App() {
 
   return (
@@ -50,9 +47,7 @@ function App() {
         </div>
         </div> 
         
-      
-      
-      
+
         </div>
         
     </div>
