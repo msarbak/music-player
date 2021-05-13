@@ -1,3 +1,21 @@
+p {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background: #ddd;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.rapstar{
+  width: 250px;
+  border-radius: 50%;
+}
 .button {
   border-radius: 50%;
 }
@@ -14,7 +32,7 @@ body, html {
 }
 
 .bg-image {
-  background-image: url("onair.jpg");
+  background-image: url("pics/onair.jpg");
 
 
   /* Add the blur effect */
@@ -45,6 +63,7 @@ body, html {
   width: 80%;
   padding: 20px;
   text-align: center;
+  border-radius: 25%;
 }
 
 /*.img{

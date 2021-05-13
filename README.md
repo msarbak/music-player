@@ -1,3 +1,9 @@
+Welcome to my Rap Radio App!
+this program is very simple, listen and enjoy :)
+
+------------------------------------------------------------------------------------------------------------
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,7 +1,18 @@
 
 import onair from './pics/onair.jpg';
 import './App.css';
-import Ses from "./Ses"
+import MultiPlayer from './MultiPlayer'
+import Neyim from './songs/neyim.mp3'
+import Galiba from './songs/galiba.mp3'
+import Suspus from './songs/suspus.mp3'
+import Golge from './songs/golge.mp3'
+import Bende from './songs/bende.mp3'
+import Holocaust from './songs/holo.mp3'
+import Istakoz from './songs/istakoz.mp3'
+import Sago from './pics/sago.jpg'
+import Ceza from './pics/ceza.jpg'
+//import Ses from "./Ses"
+//import Player from "./Player"
 import {Button} from '@material-ui/core';
 //import {PlayArrowOutlined} from '@material-ui/icons'
 function App() {
@@ -14,8 +25,33 @@ function App() {
        </div>
 
         <div class="bg-text">
-        <Button   className="button" />
-        <Ses/>
+        <div class="container">
+          <div class="row">
+           <div class="col">
+              <img src={Sago} className="rapstar"></img>
+            </div>
+            
+            <div class="col">
+              <MultiPlayer urls={[Neyim,Galiba,Suspus,Golge,Bende,Holocaust,Istakoz,]}/>
+            </div>
+            <div class="col">
+              <p>CEZA - Sagopa Kajmer | Neyim Var ki?</p>
+              <p>Sagopa Kajmer | Galiba</p>
+              <p>CEZA | Suspus</p>
+              <p>Sagopa Kajmer | Gölge Haramileri</p>
+              <p>Sagopa Kajmer | Bir Tek Bende Yok</p>
+              <p>CEZA | Holocaust</p>
+              <p>Sagopa Kajmer | Istakoz</p>
+            </div>
+            
+            <div class="col">
+              <img src={Ceza} className="rapstar"></img>
+          </div>
+        </div>
+        </div> 
+        
+      
+      
       
         </div>
         
